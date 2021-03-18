@@ -1,0 +1,23 @@
+@import 'app/variables';
+
+@import '~bootstrap/scss/bootstrap';
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    button {
+        margin: 0 .5rem;
+
+        i {
+            pointer-events: none;
+        }
+    }
+}
+
+.material-icons {
+    display: inline-block;
+    vertical-align: middle;
+}
